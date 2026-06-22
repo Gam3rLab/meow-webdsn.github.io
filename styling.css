@@ -7,7 +7,6 @@ nav ul {
     background-color: #1f4e5f;
     height: 60px;
     text-align: center;
-    padding-right: 0;
     margin: 0;
 }
 nav a {
@@ -37,17 +36,17 @@ nav li {
     margin: 30px auto;
     border: 2px solid #1f4e5f;
     background-color: #ffffff;
-    padding: 50px 40px;
+    padding: 30px 25px;
     border-radius: 10px;
 }
-
 .cardRow{
-    width:2100px;
+    width:1925px;
     height:500px;
-    margin:auto;
+    margin:30px auto;
     border: 2px solid;
     border-radius: 5px;
     display: flex;
+    background-color:#dbdbdb;
 }
 
 img{
@@ -66,5 +65,7 @@ img{
     flex-direction: column;
     height:300px;
     margin: 100px 1px 1px 100px;
+    overflow: hidden;
 }
+
 
