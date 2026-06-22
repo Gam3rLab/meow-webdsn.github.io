@@ -7,7 +7,6 @@ nav ul {
     background-color: #1f4e5f;
     height: 60px;
     text-align: center;
-    padding-right: 0;
     margin: 0;
 }
 nav a {
@@ -37,6 +36,24 @@ nav li {
     margin: 30px auto;
     border: 2px solid #1f4e5f;
     background-color: #ffffff;
-    padding: 50px 40px;
+    padding: 30px 25px;
     border-radius: 10px;
+}
+.flex {
+  display: flex;
+  background-color: #dbdbdb;
+  max-width: 1200px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.longbox {
+  margin: 10px auto;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border: 2px solid #1f4e5f;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
 }
