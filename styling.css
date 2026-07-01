@@ -107,6 +107,7 @@ hr{
     font-size: 30px;
     text-align: left;
     height: 150px; 
+    box-sizing: border-box;
 }
 
 .imgfloatleft {
@@ -117,4 +118,22 @@ hr{
 .imgfloatright {
     float: right;
     margin-left: 20px;
+}
+/*if ur making a new page, add <div id="top"></div> to the top of the body and <a href="#top" class="back-to-top">Back to Top</a> to the bottom of the body*/
+.back-to-top {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: block;
+  width: max-content;
+  margin: 10px auto;
+  transition: 0.3s ease;
+  border: #555 solid 2px;
+}
+
+.back-to-top:hover {
+  background-color: #555;
+  border: #333 solid 2px;
 }
